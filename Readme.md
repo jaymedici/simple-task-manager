@@ -14,6 +14,10 @@ To run this app, your server must either run Apache or Nginx and have mod_rewrit
 ```html
 composer install
 ```
+- Generate application encryption key
+```html
+php artisan key:generate
+```
 - Run the table migrations
 ```html
 php artisan migrate
