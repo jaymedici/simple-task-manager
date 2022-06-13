@@ -18,7 +18,7 @@ composer install
 ```html
 php artisan migrate
 ```
-- (Optional) Run seeder create a default project for you
+- (Optional) Run seeder to create a default project for you
 ```html
 php artisan db:seed
 ```
